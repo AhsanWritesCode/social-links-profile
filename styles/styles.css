@@ -1,0 +1,23 @@
+/* Defines the font used on the webpage*/
+@font-face {
+    font-family: "inter";
+    src: url("/styles/assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "inter"; /* Sets the font family to "inter" for the entire webpage */
+    margin: 0; /* Removes default margin */
+    height: 100vh; /* Sets the height to 100% of the viewport height */
+    padding: 0; /* Removes default padding */
+    color: hsl(0, 0%, 100%); /* Sets the text color to white */
+    background-color: hsl(0, 0%, 8%); /* Sets the background color to dark gray */
+    display: flex;
+    flex-direction: column; /* Sets the flex direction to column, ensuring child elements are stacked on top of one another */
+    justify-content: center; /* Aligns the content along the main axis (vertical, as flex-direction is column) */
+    align-items: center; /* Aligns the content along the cross axis (horizontal, as flex-direction is column) */
+}
+
