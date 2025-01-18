@@ -5,19 +5,100 @@
   }
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /* Sets the box model to border-box, which includes padding and border in the element's total width and height */
 }
 
 body {
     font-family: "inter"; /* Sets the font family to "inter" for the entire webpage */
-    margin: 0; /* Removes default margin */
-    height: 100vh; /* Sets the height to 100% of the viewport height */
-    padding: 0; /* Removes default padding */
-    color: hsl(0, 0%, 100%); /* Sets the text color to white */
-    background-color: hsl(0, 0%, 8%); /* Sets the background color to dark gray */
-    display: flex;
+    display: flex; /* Sets the display to flex */
     flex-direction: column; /* Sets the flex direction to column, ensuring child elements are stacked on top of one another */
     justify-content: center; /* Aligns the content along the main axis (vertical, as flex-direction is column) */
     align-items: center; /* Aligns the content along the cross axis (horizontal, as flex-direction is column) */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    height: 100vh; /* Sets the height to 100% of the viewport height */
+    color: hsl(0, 0%, 100%); /* Sets the text color to white */
+    background-color: hsl(0, 0%, 8%); /* Sets the background color to gray */
 }
 
+main {
+    display: flex; /* Sets the display to flex */
+    flex-direction: column; /* Sets the flex direction to column, ensuring child elements are stacked on top of one another */
+    justify-content: center; /* Aligns the content along the main axis (vertical, as flex-direction is column) */
+    align-items: center; /* Aligns the content along the cross axis (horizontal, as flex-direction is column) */
+    border-radius: 10px; /* Adds rounded corners to the element */
+    margin: 2.5em; /* Adds margin around the element which pushes challenge text down a bit */
+    padding: 2.5rem; /* Adds padding around the element */
+    width: auto; /* Automatically decides the width of the element */
+    min-width: 20rem; /* Sets the minimum width of the element */
+    max-width: 35rem; /* Sets the maximum width of the element */
+    background-color: hsl(0, 0%, 12%); /* Sets the background color to a darker shade of gray */
+}
+
+h1 {
+    font-size: 1.5rem; /* Sets the font size to 1.5rem */
+    font-weight: 700; /* Sets the font weight to bold */
+    margin-top: 2rem; /* Adds margin to the top of the element */
+    margin-bottom: 0; /* Removes margin from the bottom of the element */
+}
+  
+h2 {
+    font-size: 0.9rem; /* Sets the font size to 0.9rem */
+    font-weight: 600; /* Sets the font weight to semi-bold */
+    color: hsl(75, 94%, 57%); /* Sets the text color to light green */
+}
+  
+p {
+    font-size: 0.9rem; /* Sets the font size to 0.9rem */
+    margin-bottom: 1.75rem; /* Adds margin to the bottom of the element */
+    text-align: center; /* Aligns the text to the center of the page */
+}
+
+.wrapper {
+    border-radius: 50%; /* Adds rounded corners to the element, which turns the square element into a circle */
+    overflow: hidden; /* Hides any content that overflows the element */
+    height: 6rem; /* Sets the height to 6rem */
+    width: 6rem; /* Sets the width to 6rem */
+}
+
+.profile-picture {
+    height: 100%; /* Sets the height to 100% of the parent element */
+    width: 100%; /* Sets the width to 100% of the parent element */
+}
+
+.links {
+    display: flex; /* Sets the display to flex */
+    flex-direction: column; /* Sets the flex direction to column, ensuring child elements are stacked on top of one another */
+    gap: 1rem; /* Adds a gap of 1rem between child elements */
+    text-align: center; /* Aligns the text to the center of the page */
+    align-self: stretch; /* Stretches the element to fill the width of the parent element */
+}
+
+.social-link {
+    padding: 1rem; /* Adds padding around the element */
+    border-radius: 10px; /* Adds rounded corners to the element */
+    background-color: hsl(0, 0%, 20%); /* Sets the background color to a darker shade of gray */
+    font-weight: 600; /* Sets the font weight to semi-bold */
+    transition: color 0.5s, background-color 0.5s; /* Adds a smooth transition effect to the color and background-color properties */
+    color: inherit; /* Makes the link text inherit the color from its parent element */
+    text-decoration: none; /* Removes the underline */
+}
+
+.social-link:hover {
+    background-color: hsl(75, 94%, 57%); /* Changes the background color to light green on hover */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    color: hsl(0, 0%, 12%); /* Changes the text color to gray on hover */
+}
+
+.attribution {
+    font-size: 11px; /* Sets the font size to 11px */
+    text-align: center; /* Aligns the text to the center of the page */
+}
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%); /* Sets the text color to a shade of blue */
+}
+  
+
+  
+  
