@@ -30,7 +30,7 @@ I created this project using Front End Mentor's social-links-profile challenge a
 
 ### Useful resources
 
-- [Mozilla MDN Web Docs]([https://www.example.com](https://developer.mozilla.org/en-US/docs/Web/CSS) - The Mozilla MDN Web Docs were a highly useful resource for understanding CSS Flexboxes, the width property, and the box-sizing property, among others.
+- [Mozilla MDN Web Docs](https://www.example.com)- The Mozilla MDN Web Docs were a highly useful resource for understanding CSS Flexboxes, the width property, and the box-sizing property, among others.
 
 
 
