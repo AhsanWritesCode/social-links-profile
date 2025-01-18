@@ -1,7 +1,7 @@
 /* Defines the font used on the webpage*/
 @font-face {
     font-family: "inter";
-    src: url("/assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+    src: url("./assets/fonts/Inter-VariableFont_slnt,wght.ttf");
   }
 
 * {
