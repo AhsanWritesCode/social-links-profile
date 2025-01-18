@@ -17,7 +17,7 @@ I created this project using Front End Mentor's social-links-profile challenge a
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://ahsanwritescode.github.io/social-links-profile/)
+- Live Site URL: [Ahsan Tariq Social Links](https://ahsanwritescode.github.io/social-links-profile/)
 
 ## My process
 
