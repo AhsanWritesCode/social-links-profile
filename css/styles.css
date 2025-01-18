@@ -96,7 +96,7 @@ p {
 }
   
   .attribution a {
-    color: hsl(228, 45%, 44%); /* Sets the text color to a shade of blue */
+    color: inherit; /* Sets the text color to a shade of blue */
 }
   
 
