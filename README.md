@@ -13,7 +13,8 @@ I created this project using Front End Mentor's social-links-profile challenge a
 
 ### Screenshot
 
-![image](https://github.com/user-attachments/assets/49dbd63d-6356-4d91-be6b-9ee7b112803f)
+![image](https://github.com/user-attachments/assets/30f94abf-5304-4eb2-a369-4a5307dd4439)
+
 
 ### Links
 
